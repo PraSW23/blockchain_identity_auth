@@ -1,10 +1,7 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## DEMO VIDEO
+[Screencast from 28-09-23 06:02:51 AM IST.webm](https://github.com/PraSW23/blockchain_identity_auth/assets/130173965/2f8bf4b8-ef4f-4b3c-a972-fc52082d9bd5)
 
-## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 
