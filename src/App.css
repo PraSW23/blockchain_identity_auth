@@ -1,0 +1,89 @@
+/* App Container */
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+/* Header Styles */
+.app-header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.app-header h1 {
+  margin: 0;
+}
+
+.app-header h4 {
+  margin: 0;
+  color: #ccc;
+}
+
+/* Button Styles */
+.app-button__login,
+.app-button__register,
+.app-button__logout {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.app-button__login:hover,
+.app-button__register:hover,
+.app-button__logout:hover {
+  background-color: #0056b3;
+}
+
+/* Registration Input and Status Styles */
+.app-registration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.app-registration input[type="text"] {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.registration-status {
+  margin: 10px;
+  font-weight: bold;
+}
+
+/* Details Section Styles */
+.app-details {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.app-details h2 {
+  margin-top: 0;
+}
+
+.app-balance {
+  margin-top: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .app-registration input[type="text"] {
+    width: 100%;
+    margin-right: 0;
+  }
+}
